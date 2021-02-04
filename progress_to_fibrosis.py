@@ -55,3 +55,6 @@ merge_data_frames['age_group'].value_counts().plot(kind='bar')
 
 merge_data_frames.groupby("age_group")['difference:last-first_FVC'].mean().plot(kind='bar',
                          title="Mean difference between last and first FVC by age group")
+
+
+# we need to add the time evolution here
